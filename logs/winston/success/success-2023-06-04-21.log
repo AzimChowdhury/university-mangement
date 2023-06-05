@@ -1,0 +1,12 @@
+{
+  message: '\x1B[32mdatabase connected successfully\x1B[39m',
+  level: 'info',
+  label: 'info console',
+  timestamp: '2023-06-04T13:53:14.878Z'
+}
+{
+  message: '\x1B[32mserver running on the port 5000\x1B[39m',
+  level: 'info',
+  label: 'info console',
+  timestamp: '2023-06-04T13:53:14.891Z'
+}
