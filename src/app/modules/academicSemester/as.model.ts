@@ -34,4 +34,4 @@ const asSchema = new Schema<IAS>(
   }
 )
 
-export const as = model<IAS, ASModel>('asSchema', asSchema)
+export const AS = model<IAS, ASModel>('asSchema', asSchema)
