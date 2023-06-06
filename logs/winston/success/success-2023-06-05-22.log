@@ -1,0 +1,72 @@
+{
+  message: '\x1B[32mdatabase connected successfully\x1B[39m',
+  level: 'info',
+  label: 'info console',
+  timestamp: '2023-06-05T14:00:54.787Z'
+}
+{
+  message: '\x1B[32mserver running on the port 5000\x1B[39m',
+  level: 'info',
+  label: 'info console',
+  timestamp: '2023-06-05T14:00:54.796Z'
+}
+{
+  message: '\x1B[32mdatabase connected successfully\x1B[39m',
+  level: 'info',
+  label: 'info console',
+  timestamp: '2023-06-05T14:01:13.459Z'
+}
+{
+  message: '\x1B[32mserver running on the port 5000\x1B[39m',
+  level: 'info',
+  label: 'info console',
+  timestamp: '2023-06-05T14:01:13.466Z'
+}
+{
+  message: '\x1B[32mdatabase connected successfully\x1B[39m',
+  level: 'info',
+  label: 'info console',
+  timestamp: '2023-06-05T14:01:47.272Z'
+}
+{
+  message: '\x1B[32mserver running on the port 5000\x1B[39m',
+  level: 'info',
+  label: 'info console',
+  timestamp: '2023-06-05T14:01:47.281Z'
+}
+{
+  message: '\x1B[32mdatabase connected successfully\x1B[39m',
+  level: 'info',
+  label: 'info console',
+  timestamp: '2023-06-05T14:04:44.651Z'
+}
+{
+  message: '\x1B[32mserver running on the port 5000\x1B[39m',
+  level: 'info',
+  label: 'info console',
+  timestamp: '2023-06-05T14:04:44.657Z'
+}
+{
+  message: '\x1B[32mdatabase connected successfully\x1B[39m',
+  level: 'info',
+  label: 'info console',
+  timestamp: '2023-06-05T14:06:25.420Z'
+}
+{
+  message: '\x1B[32mserver running on the port 5000\x1B[39m',
+  level: 'info',
+  label: 'info console',
+  timestamp: '2023-06-05T14:06:25.444Z'
+}
+{
+  message: '\x1B[32mdatabase connected successfully\x1B[39m',
+  level: 'info',
+  label: 'info console',
+  timestamp: '2023-06-05T14:07:48.254Z'
+}
+{
+  message: '\x1B[32mserver running on the port 5000\x1B[39m',
+  level: 'info',
+  label: 'info console',
+  timestamp: '2023-06-05T14:07:48.266Z'
+}

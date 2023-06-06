@@ -1,0 +1,17 @@
+{
+  level: 'error',
+  message: 'globalErrorHandler x is not defined',
+  stack: 'ReferenceError: x is not defined\n' +
+    '    at C:\\Users\\User\\Desktop\\Projects\\university-management-auth-service\\src\\app.ts:18:15\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\User\\Desktop\\Projects\\university-management-auth-service\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\User\\Desktop\\Projects\\university-management-auth-service\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\Users\\User\\Desktop\\Projects\\university-management-auth-service\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\User\\Desktop\\Projects\\university-management-auth-service\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\Users\\User\\Desktop\\Projects\\university-management-auth-service\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\Users\\User\\Desktop\\Projects\\university-management-auth-service\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\Users\\User\\Desktop\\Projects\\university-management-auth-service\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+    '    at urlencodedParser (C:\\Users\\User\\Desktop\\Projects\\university-management-auth-service\\node_modules\\body-parser\\lib\\types\\urlencoded.js:91:7)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\User\\Desktop\\Projects\\university-management-auth-service\\node_modules\\express\\lib\\router\\layer.js:95:5)',
+  label: 'error console',
+  timestamp: '2023-06-05T13:58:21.289Z'
+}
