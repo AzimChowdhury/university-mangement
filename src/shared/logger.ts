@@ -2,6 +2,7 @@ import { createLogger, format, transports } from 'winston';
 import path from 'path';
 const { combine, timestamp, label, printf, prettyPrint } = format;
 import DailyRotateFile from 'winston-daily-rotate-file';
+import { green } from 'console-log-colors';
 
 // custom log format
 const myFormat = printf(({ level, message, label, timestamp }) => {
