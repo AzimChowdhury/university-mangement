@@ -1,6 +1,8 @@
-import { Model, Schema, model } from 'mongoose'
-import { IAS, ASModel } from './as.interface'
-import { asCodes, asMonths, asTitle } from './as.consantst'
+import { Model, Schema, model } from 'mongoose';
+import { IAS, ASModel } from './as.interface';
+import { asCodes, asMonths, asTitle } from './as.consantst';
+import ApiError from '../../../errors/ApiError';
+import httpStatus from 'http-status';
 
 const asSchema = new Schema<IAS>(
   {
@@ -32,6 +34,18 @@ const asSchema = new Schema<IAS>(
   {
     timestamps: true,
   }
-)
+);
 
-export const AS = model<IAS, ASModel>('asSchema', asSchema)
+// handling same year and same semester issue
+asSchema.pre('save', async function (next) {
+  const isExist = await AS.findOne({ title: this.title, year: this.year });
+  if (isExist) {
+    throw new ApiError(
+      httpStatus.CONFLICT,
+      'Academic semester is already exist.'
+    );
+  }
+  next();
+});
+
+export const AS = model<IAS, ASModel>('academic-semester', asSchema);

@@ -18,8 +18,8 @@ const logger = createLogger({
   format: combine(
     label({ label: 'info console' }),
     timestamp(),
-    myFormat,
-    prettyPrint()
+    myFormat
+    // prettyPrint()
   ),
   transports: [
     new transports.Console(),
@@ -45,8 +45,8 @@ const errorLogger = createLogger({
   format: combine(
     label({ label: 'error console' }),
     timestamp(),
-    myFormat,
-    prettyPrint()
+    myFormat
+    // prettyPrint()
   ),
   transports: [
     new transports.Console(),

@@ -1,0 +1,54 @@
+{
+  message: '\x1B[32mdatabase connected successfully\x1B[39m',
+  level: 'info',
+  label: 'info console',
+  timestamp: '2023-06-08T10:19:25.423Z'
+}
+{
+  message: '\x1B[32mserver running on the port 5000\x1B[39m',
+  level: 'info',
+  label: 'info console',
+  timestamp: '2023-06-08T10:19:25.439Z'
+}
+{
+  message: '\x1B[32mdatabase connected successfully\x1B[39m',
+  level: 'info',
+  label: 'info console',
+  timestamp: '2023-06-08T10:20:01.502Z'
+}
+{
+  message: '\x1B[32mserver running on the port 5000\x1B[39m',
+  level: 'info',
+  label: 'info console',
+  timestamp: '2023-06-08T10:20:01.511Z'
+}
+Thu Jun 08 2023 18:20:26 [info console] info: [32mdatabase connected successfully[39m
+Thu Jun 08 2023 18:20:26 [info console] info: [32mserver running on the port 5000[39m
+Thu Jun 08 2023 18:20:43 [info console] info: [32mdatabase connected successfully[39m
+Thu Jun 08 2023 18:20:43 [info console] info: [32mserver running on the port 5000[39m
+Thu Jun 08 2023 18:27:13 [info console] info: [32mdatabase connected successfully[39m
+Thu Jun 08 2023 18:27:13 [info console] info: [32mserver running on the port 5000[39m
+Thu Jun 08 2023 18:30:39 [info console] info: [32mdatabase connected successfully[39m
+Thu Jun 08 2023 18:30:39 [info console] info: [32mserver running on the port 5000[39m
+Thu Jun 08 2023 18:33:10 [info console] info: [32mdatabase connected successfully[39m
+Thu Jun 08 2023 18:33:10 [info console] info: [32mserver running on the port 5000[39m
+Thu Jun 08 2023 18:35:8 [info console] info: [32mdatabase connected successfully[39m
+Thu Jun 08 2023 18:35:8 [info console] info: [32mserver running on the port 5000[39m
+Thu Jun 08 2023 18:39:50 [info console] info: [32mdatabase connected successfully[39m
+Thu Jun 08 2023 18:39:50 [info console] info: [32mserver running on the port 5000[39m
+Thu Jun 08 2023 18:46:8 [info console] info: [32mdatabase connected successfully[39m
+Thu Jun 08 2023 18:46:8 [info console] info: [32mserver running on the port 5000[39m
+Thu Jun 08 2023 18:46:53 [info console] info: [32mdatabase connected successfully[39m
+Thu Jun 08 2023 18:46:53 [info console] info: [32mserver running on the port 5000[39m
+Thu Jun 08 2023 18:47:3 [info console] info: [32mdatabase connected successfully[39m
+Thu Jun 08 2023 18:47:3 [info console] info: [32mserver running on the port 5000[39m
+Thu Jun 08 2023 18:51:44 [info console] info: [32mdatabase connected successfully[39m
+Thu Jun 08 2023 18:51:44 [info console] info: [32mserver running on the port 5000[39m
+Thu Jun 08 2023 18:51:53 [info console] info: [32mdatabase connected successfully[39m
+Thu Jun 08 2023 18:51:53 [info console] info: [32mserver running on the port 5000[39m
+Thu Jun 08 2023 18:52:44 [info console] info: [32mdatabase connected successfully[39m
+Thu Jun 08 2023 18:52:44 [info console] info: [32mserver running on the port 5000[39m
+Thu Jun 08 2023 18:53:7 [info console] info: [32mdatabase connected successfully[39m
+Thu Jun 08 2023 18:53:7 [info console] info: [32mserver running on the port 5000[39m
+Thu Jun 08 2023 18:55:56 [info console] info: [32mdatabase connected successfully[39m
+Thu Jun 08 2023 18:55:56 [info console] info: [32mserver running on the port 5000[39m
