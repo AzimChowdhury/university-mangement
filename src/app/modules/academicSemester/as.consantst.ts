@@ -22,3 +22,5 @@ export const asTitleCodeMapper: { [key: string]: string } = {
   Summer: '02',
   Fall: '03',
 };
+export const asSearchableFields = ['title', 'code', 'year'];
+export const asFilterableFields = ['searchTerm', 'title', 'code', 'year'];

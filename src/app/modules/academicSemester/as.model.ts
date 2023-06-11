@@ -12,7 +12,7 @@ const asSchema = new Schema<IAS>(
       enum: asTitle,
     },
     year: {
-      type: Number,
+      type: String,
       required: true,
     },
     code: {

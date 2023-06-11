@@ -9,5 +9,7 @@ router.post(
   validateRequest(ASValidation.createASZodSchema),
   ASController.createSemester
 );
+router.get('/:id', ASController.getSingleSemester);
+router.get('/', ASController.getAllSemesters);
 
 export const SemesterRoute = router;

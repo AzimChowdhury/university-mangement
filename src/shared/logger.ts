@@ -7,11 +7,11 @@ import { green } from 'console-log-colors';
 // custom log format
 const myFormat = printf(({ level, message, label, timestamp }) => {
   const date = new Date(timestamp);
-  const hour = date.getHours();
-  const minutes = date.getMinutes();
-  const seconds = date.getSeconds();
+  // const hour = date.getHours();
+  // const minutes = date.getMinutes();
+  // const seconds = date.getSeconds();
 
-  return `${date.toDateString()} ${hour}:${minutes}:${seconds} [${label}] ${level}: ${message}`;
+  return `${date.toDateString()} - ${level} - ${message}`;
 });
 
 const logger = createLogger({

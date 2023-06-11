@@ -6,6 +6,7 @@ import { UserRoutes } from './app/modules/users/user.route';
 import ApiError from './errors/ApiError';
 import { SemesterRoute } from './app/modules/academicSemester/as.route';
 import routes from './app/routes';
+import httpStatus from 'http-status';
 const app: Application = express();
 
 app.use(cors());
@@ -26,5 +27,19 @@ app.get('/', async (req: Request, res: Response, next: NextFunction) => {
 
 // global error handler
 app.use(globalErrorHandler);
+
+// handle not found
+app.use((req: Request, res: Response, next: NextFunction) => {
+  res.status(httpStatus.NOT_FOUND).json({
+    success: false,
+    message: 'Not found',
+    errorMessage: [
+      {
+        path: req.originalUrl,
+        message: 'API not found',
+      },
+    ],
+  });
+});
 
 export default app;

@@ -1,0 +1,15 @@
+Sun Jun 11 2023 18:6:1 [error console] error: globalErrorHandler Academic semester is already exist.
+Sun Jun 11 2023 18:6:24 [error console] error: globalErrorHandler [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "role"
+    ],
+    "message": "role is required"
+  }
+]
+Sun Jun 11 2023 18:8:7 [error console] error: globalErrorHandler Academic semester is already exist.
+Sun Jun 11 2023 18:15:24 [error console] error: globalErrorHandler Academic semester is already exist.
