@@ -14,6 +14,8 @@ router.patch(
   validateRequest(ASValidation.updateASZodSchema),
   ASController.updateSemester
 );
+router.delete('/:id', ASController.deleteSemester);
+
 router.get('/:id', ASController.getSingleSemester);
 router.get('/', ASController.getAllSemesters);
 

@@ -92,9 +92,15 @@ const updateSemester = async (
   return result;
 };
 
+const deleteSemester = async (id: string): Promise<IAS | null> => {
+  const result = AS.findByIdAndDelete(id);
+  return result;
+};
+
 export const ASservice = {
   createSemester,
   getAllSemester,
   getSingleSemester,
   updateSemester,
+  deleteSemester,
 };
