@@ -33,6 +33,9 @@ const asSchema = new Schema<IAS>(
   },
   {
     timestamps: true,
+    toJSON: {
+      virtuals: true,
+    },
   }
 );
 
