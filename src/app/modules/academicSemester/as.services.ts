@@ -76,8 +76,25 @@ const getSingleSemester = async (id: string): Promise<IAS | null> => {
   return result;
 };
 
+const updateSemester = async (
+  id: string,
+  payload: Partial<IAS>
+): Promise<IAS | null> => {
+  if (
+    payload.title &&
+    payload.code &&
+    asTitleCodeMapper[payload.title] !== payload.code
+  ) {
+    throw new ApiError(httpStatus.BAD_REQUEST, 'Invalid semester code');
+  }
+
+  const result = AS.findOneAndUpdate({ _id: id }, payload, { new: true });
+  return result;
+};
+
 export const ASservice = {
   createSemester,
   getAllSemester,
   getSingleSemester,
+  updateSemester,
 };

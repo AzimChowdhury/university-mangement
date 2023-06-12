@@ -9,6 +9,11 @@ router.post(
   validateRequest(ASValidation.createASZodSchema),
   ASController.createSemester
 );
+router.patch(
+  '/:id',
+  validateRequest(ASValidation.updateASZodSchema),
+  ASController.updateSemester
+);
 router.get('/:id', ASController.getSingleSemester);
 router.get('/', ASController.getAllSemesters);
 
