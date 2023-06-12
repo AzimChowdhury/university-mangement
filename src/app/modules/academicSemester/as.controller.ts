@@ -5,9 +5,9 @@ import sendResponse from '../../../shared/sendResponse';
 import httpStatus from 'http-status';
 import { AS } from './as.model';
 import pick from '../../../shared/pick';
-import { paginationFields } from '../../../constsnts/pagination';
+import { paginationFields } from '../../../constants/pagination';
 import { IAS } from './as.interface';
-import { asFilterableFields } from './as.consantst';
+import { asFilterableFields } from './as.constants';
 
 const createSemester = catchAsync(
   async (req: Request, res: Response, next: NextFunction) => {

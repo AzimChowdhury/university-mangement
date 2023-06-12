@@ -1,6 +1,6 @@
 import { Model, Schema, model } from 'mongoose';
 import { IAS, ASModel } from './as.interface';
-import { asCodes, asMonths, asTitle } from './as.consantst';
+import { asCodes, asMonths, asTitle } from './as.constants';
 import ApiError from '../../../errors/ApiError';
 import httpStatus from 'http-status';
 

@@ -1,5 +1,5 @@
 import { z } from 'zod';
-import { asCodes, asMonths, asTitle } from './as.consantst';
+import { asCodes, asMonths, asTitle } from './as.constants';
 
 // request validation
 const createASZodSchema = z.object({

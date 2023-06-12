@@ -3,7 +3,7 @@ import ApiError from '../../../errors/ApiError';
 import { paginationHelpers } from '../../../helpers/paginationHelper';
 import { IGenericResponse } from '../../../interfaces/common';
 import { IPaginationOptions } from '../../../interfaces/pagination';
-import { asSearchableFields, asTitleCodeMapper } from './as.consantst';
+import { asSearchableFields, asTitleCodeMapper } from './as.constants';
 import { IAS, IASFilters } from './as.interface';
 import { AS } from './as.model';
 import httpStatus from 'http-status';
