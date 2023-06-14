@@ -1,0 +1,2 @@
+Wed Jun 14 2023 - error - globalErrorHandler E11000 duplicate key error collection: university-management.users index: id_1 dup key: { id: "230100005" }
+Wed Jun 14 2023 - error - globalErrorHandler E11000 duplicate key error collection: university-management.users index: id_1 dup key: { id: "230100005" }

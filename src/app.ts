@@ -7,6 +7,10 @@ import ApiError from './errors/ApiError';
 import { SemesterRoute } from './app/modules/academicSemester/as.route';
 import routes from './app/routes';
 import httpStatus from 'http-status';
+import {
+  generateFacultyId,
+  generateStudentID,
+} from './app/modules/users/user.utils';
 const app: Application = express();
 
 app.use(cors());
