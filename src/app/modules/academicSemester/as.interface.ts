@@ -24,6 +24,6 @@ export type IAS = {
   endMonth: IMonth;
 };
 
-export type IASFilters = { searchTerm: string };
+export type IASFilters = { searchTerm?: string };
 
 export type ASModel = Model<IAS>;

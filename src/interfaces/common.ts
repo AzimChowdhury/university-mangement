@@ -3,7 +3,7 @@ import { IGenericErrorMessage } from './error';
 export type IGenericErrorResponse = {
   statusCode: number;
   message: string;
-  errorMessage: IGenericErrorMessage;
+  errorMessage: IGenericErrorMessage[];
 };
 
 export type IGenericResponse<T> = {

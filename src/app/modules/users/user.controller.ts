@@ -9,7 +9,7 @@ const createStudent = catchAsync(async (req: Request, res: Response) => {
   const result = await UserService.createStudent(student, userData);
 
   sendResponse(res, {
-    statusCode: httpStatus.ok,
+    statusCode: httpStatus.OK,
     success: true,
     message: 'user created successfully',
     data: result,
@@ -19,7 +19,7 @@ const createStudent = catchAsync(async (req: Request, res: Response) => {
 const getStudents = catchAsync(async (req: Request, res: Response) => {
   const result = await UserService.getStudents();
   sendResponse(res, {
-    statusCode: httpStatus.ok,
+    statusCode: httpStatus.OK,
     success: true,
     message: 'user fetched successfully',
     data: result,

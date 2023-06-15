@@ -15,7 +15,7 @@ const createSemester = catchAsync(
     const result = await ASservice.createSemester(asData);
 
     sendResponse(res, {
-      statusCode: httpStatus.ok,
+      statusCode: httpStatus.OK,
       success: true,
       message: 'Academic semester created successfully',
       data: result,
@@ -30,7 +30,7 @@ const getAllSemesters = catchAsync(
     const result = await ASservice.getAllSemester(filters, paginationOptions);
 
     sendResponse<IAS[]>(res, {
-      statusCode: httpStatus.ok,
+      statusCode: httpStatus.OK,
       success: true,
       message: 'Semester retrieved successfully!',
       meta: result.meta,
@@ -45,7 +45,7 @@ const getSingleSemester = catchAsync(
     const result = await ASservice.getSingleSemester(id);
 
     sendResponse<IAS>(res, {
-      statusCode: httpStatus.ok,
+      statusCode: httpStatus.OK,
       success: true,
       message: 'Semester retrieved successfully!',
       data: result,
@@ -60,7 +60,7 @@ const updateSemester = catchAsync(
     const result = await ASservice.updateSemester(id, updateData);
 
     sendResponse<IAS>(res, {
-      statusCode: httpStatus.ok,
+      statusCode: httpStatus.OK,
       success: true,
       message: 'Semester updated successfully!',
       data: result,
@@ -72,7 +72,7 @@ const deleteSemester = catchAsync(async (req: Request, res: Response) => {
   const result = await ASservice.deleteSemester(id);
 
   sendResponse<IAS>(res, {
-    statusCode: httpStatus.ok,
+    statusCode: httpStatus.OK,
     success: true,
     message: 'Semester deleted successfully!',
     data: result,
