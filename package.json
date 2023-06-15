@@ -1,8 +1,7 @@
 {
   "name": "university-management-auth-service",
   "version": "1.0.0",
-  "description": "",
-  "main": "src/server.ts",
+  "description": "", 
   "engines": {
     "node": ">=16"
   },
