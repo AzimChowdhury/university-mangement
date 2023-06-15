@@ -89,21 +89,14 @@ const updateStudent = async (
 
   const updatedStudentData: Partial<IStudent> = { ...studentData };
 
-  /* const name ={
-    fisrtName: 'Mezba',  <----- update korar jnno
-    middleName:'Abedin',
-    lastName: 'Forhan'
-  }
-*/
-
   // dynamically handling
-
   if (name && Object.keys(name).length > 0) {
     Object.keys(name).forEach(key => {
-      const nameKey = `name.${key}` as keyof Partial<IStudent>; // `name.fisrtName`
+      const nameKey = `name.${key}` as keyof Partial<IStudent>;
       (updatedStudentData as any)[nameKey] = name[key as keyof typeof name];
     });
   }
+
   if (guardian && Object.keys(guardian).length > 0) {
     Object.keys(guardian).forEach(key => {
       const guardianKey = `guardian.${key}` as keyof Partial<IStudent>; // `guardian.fisrtguardian`
