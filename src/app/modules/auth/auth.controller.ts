@@ -4,6 +4,7 @@ import catchAsync from '../../../shared/catchAsync';
 import sendResponse from '../../../shared/sendResponse';
 import { ILoginUserResponse, IRefreshTokenResponse } from './auth.interface';
 import { AuthService } from './auth.services';
+import httpStatus from 'http-status';
 
 const loginUser = catchAsync(async (req: Request, res: Response) => {
   const { ...loginData } = req.body;
@@ -20,9 +21,9 @@ const loginUser = catchAsync(async (req: Request, res: Response) => {
   res.cookie('refreshToken', refreshToken, cookieOptions);
 
   sendResponse<ILoginUserResponse>(res, {
-    statusCode: 200,
+    statusCode: httpStatus.OK,
     success: true,
-    message: 'User lohggedin successfully !',
+    message: 'User logged in successfully !',
     data: others,
   });
 });

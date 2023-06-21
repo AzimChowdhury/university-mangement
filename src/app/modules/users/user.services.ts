@@ -80,6 +80,7 @@ const createFaculty = async (
   if (!user.password) {
     user.password = config.default_faculty_password as string;
   }
+
   // set role
   user.role = 'faculty';
 
