@@ -1,0 +1,28 @@
+Wed Jun 21 2023 - error - globalErrorHandler [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "title"
+    ],
+    "message": "Title is required"
+  }
+]
+Wed Jun 21 2023 - error - globalErrorHandler [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "faculty",
+      "emergencyContactNo"
+    ],
+    "message": "Emergency contact number is required"
+  }
+]
+Wed Jun 21 2023 - error - globalErrorHandler Faculties validation failed: academicDepartment: Cast to ObjectId failed for value "History" (type string) at path "academicDepartment" because of "BSONError", academicFaculty: Cast to ObjectId failed for value "History" (type string) at path "academicFaculty" because of "BSONError", gender: `Male` is not a valid enum value for path `gender`.
+Wed Jun 21 2023 - error - globalErrorHandler Schema hasn't been registered for model "Faculty".
+Use mongoose.model(name, schema)

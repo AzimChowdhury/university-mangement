@@ -15,9 +15,6 @@ export const generateStudentID = async (as: IAS | null) => {
 
   incrementedId = `${as?.year.substring(2)}${as?.code}${incrementedId}`;
   return incrementedId;
-  // console.log(incrementedId);
-  //   lastUserId++
-  //   return String(lastUserId).padStart(5, '0')
 };
 
 export const findLastFacultyID = async (): Promise<string | undefined> => {

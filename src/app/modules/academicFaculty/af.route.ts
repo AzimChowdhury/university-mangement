@@ -23,4 +23,4 @@ router.delete('/:id', AFController.deleteFaculty);
 
 router.get('/', AFController.getAllFaculties);
 
-export const FacultyRoutes = router;
+export const AFacultyRoutes = router;

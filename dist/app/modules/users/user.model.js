@@ -20,6 +20,14 @@ const userSchema = new mongoose_1.Schema({
         type: mongoose_1.Schema.Types.ObjectId,
         ref: 'Student',
     },
+    // faculty: {
+    //   type: Schema.Types.ObjectId,
+    //   ref: 'Faculty',
+    // },
+    // admin: {
+    //   type: Schema.Types.ObjectId,
+    //   ref: 'Admin',
+    // },
 }, {
     timestamps: true,
     toJSON: {
