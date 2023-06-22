@@ -43,9 +43,9 @@ const refreshToken = catchAsync(async (req: Request, res: Response) => {
   res.cookie('refreshToken', refreshToken, cookieOptions);
 
   sendResponse<IRefreshTokenResponse>(res, {
-    statusCode: 200,
+    statusCode: httpStatus.OK,
     success: true,
-    message: 'User lohggedin successfully !',
+    message: 'User logged in successfully !',
     data: result,
   });
 });
