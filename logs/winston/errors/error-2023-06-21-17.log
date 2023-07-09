@@ -1,6 +1,0 @@
-Wed Jun 21 2023 - error - globalErrorHandler Schema hasn't been registered for model "Faculty".
-Use mongoose.model(name, schema)
-Wed Jun 21 2023 - error - globalErrorHandler E11000 duplicate key error collection: university-management.faculties index: contactNo_1 dup key: { contactNo: "+12395012" }
-Wed Jun 21 2023 - error - globalErrorHandler E11000 duplicate key error collection: university-management.faculties index: email_1 dup key: { email: "johndoe9@example.com" }
-Wed Jun 21 2023 - error - globalErrorHandler Schema hasn't been registered for model "Faculty".
-Use mongoose.model(name, schema)
